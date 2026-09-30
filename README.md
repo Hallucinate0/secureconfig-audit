@@ -27,7 +27,7 @@ before a commit, in CI, or during release preparation.
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/secureconfig-audit.git
+git clone https://github.com/Hallucinate0/secureconfig-audit.git
 cd secureconfig-audit
 python -m pip install -e .
 ```
