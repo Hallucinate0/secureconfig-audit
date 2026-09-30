@@ -1,0 +1,5 @@
+{
+  "debug": true,
+  "backend_url": "http://api.example.com",
+  "allow_origins": "*"
+}
