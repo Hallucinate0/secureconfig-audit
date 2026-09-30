@@ -17,7 +17,7 @@ before a commit, in CI, or during release preparation.
 - Insecure HTTP URL detection
 - Debug/development mode detection
 - Weak password and token heuristics
-- File permission checks
+- Unsafe configuration pattern detection
 - JSON and `.env` style configuration support
 - Machine-readable JSON output
 - Exit codes suitable for CI
