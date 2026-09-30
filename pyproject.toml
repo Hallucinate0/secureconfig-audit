@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secureconfig-audit"
+version = "0.1.0"
+description = "Local security auditing for application configuration files."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "SecureConfig Audit Contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+secureconfig-audit = "secureconfig_audit.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
